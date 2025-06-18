@@ -1,0 +1,32 @@
+@use 'variables' as v;
+
+
+
+// Mixin for responsive container width
+@mixin telefono{
+    @media (min-width: v.$telefono) {
+        width: 100%;
+       @content;
+    }
+}
+
+@mixin tablet{
+    @media (min-width: v.$tablet) {
+        width: 100%;
+       @content;
+    }
+}
+
+@mixin desktop{
+    @media (min-width: v.$desktop) {
+        width: 100%;
+       @content;
+    }
+}
+
+@mixin desktop-grande{
+    @media (min-width: v.$desktop-grande) {
+        width: 100%;
+       @content;
+    }
+}
