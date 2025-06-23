@@ -620,3 +620,13 @@ body > section {
 .bg-verde li:nth-child(odd) {
   background-color: rgb(94.258, 191.242, 186.752);
 }
+
+.footer {
+  background-color: #F53756;
+  padding: 2rem 0;
+}
+.footer p {
+  margin: 0;
+  color: #FFFFFF;
+  text-align: center;
+}/*# sourceMappingURL=app.css.map */
